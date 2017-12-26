@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "1d032799-4034-44ac-87c2-f4a02f976288",
+            "Value": {
+                "id": "952d464c-23df-466a-9b16-40180394bcce",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oCat\/oCat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "330f06be-48de-4c9b-8c62-2538f458b29a",
             "Value": {
                 "id": "14a0f2c4-0c7b-48fd-a75f-59bf42cec6c3",
@@ -131,6 +150,25 @@
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3b410d5e-ee39-4d53-817c-4013fca68ebc",
+            "Value": {
+                "id": "88568550-7056-4481-ab29-ffd415cf1f8c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sGirl\/sGirl.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,6 +226,25 @@
                 ],
                 "resourcePath": "views\/78d2ced5-e0ab-4a0d-9e4c-54d196fc7d9b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8477d679-96d5-4d41-a0eb-ec0b54c7dbd3",
+            "Value": {
+                "id": "6c81c93d-a31c-4d21-8b33-fa9826057a80",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oGirl\/oGirl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -283,6 +340,25 @@
                 ],
                 "resourcePath": "views\/b7b22ef3-acaf-443e-839e-932057d1a818.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b93376d3-eaac-4b88-8f7c-5d0e20ca7cef",
+            "Value": {
+                "id": "87e9428a-68a1-4c03-8de6-f475e6ec5aa0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spritesCat\/spritesCat.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
