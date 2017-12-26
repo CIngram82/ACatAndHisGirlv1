@@ -186,7 +186,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/Player\/Player.yy",
                 "resourceType": "GMRoom"
             }
         },
