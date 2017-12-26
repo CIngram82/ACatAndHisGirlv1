@@ -1,8 +1,8 @@
 {
-    "id": "1d032799-4034-44ac-87c2-f4a02f976288",
+    "id": "c950143e-1176-4e37-b0b9-6a8a7ba6a4cc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCat",
+    "name": "oGateLock",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b93376d3-eaac-4b88-8f7c-5d0e20ca7cef",
+    "spriteId": "506fabac-1bc1-428a-a39c-6da508369168",
     "visible": true
 }
