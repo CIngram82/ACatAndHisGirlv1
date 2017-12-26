@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oGirl",
     "eventList": [
-        
+        {
+            "id": "6b4f467e-1086-4b56-8f81-ee490c09298c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8477d679-96d5-4d41-a0eb-ec0b54c7dbd3"
+        },
+        {
+            "id": "3e32071e-10c7-42aa-913c-1f889e9ad00d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "8477d679-96d5-4d41-a0eb-ec0b54c7dbd3"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
