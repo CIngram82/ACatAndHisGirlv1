@@ -40,6 +40,12 @@ if (place_meeting(x+hsp,y,oBox)){
 	 }	 
 	 hsp = 0;
 }
+if (place_meeting(x+hsp,y,oGate)){
+	 while(!place_meeting(x+sign(hsp),y,oGate)){
+		 x += sign(hsp);
+	 }	 
+	 hsp = 0;
+}
 x += hsp;
 
 // Vertical Collision

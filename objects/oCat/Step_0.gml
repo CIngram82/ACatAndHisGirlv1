@@ -40,6 +40,12 @@ if (place_meeting(x+hsp,y,oBox)){
 	 }	 
 	 hsp = 0;
 }
+if (place_meeting(x+hsp,y,oGate)){
+	 while(!place_meeting(x+sign(hsp),y,oGate)){
+		 x += sign(hsp);
+	 }	 
+	 hsp = 0;
+}
 x += hsp;
 
 // Vertical Collision
@@ -51,6 +57,12 @@ if (place_meeting(x,y+vsp,oWall)){
 }
 if (place_meeting(x,y+vsp,oBox)){
 	 while(!place_meeting(x,y+sign(vsp),oBox)){
+		 y += sign(vsp);
+	 }	 
+	 vsp = 0;
+}
+if (place_meeting(x,y+vsp,oBranch)){
+	 while(!place_meeting(x,y+sign(vsp),oBranch)){
 		 y += sign(vsp);
 	 }	 
 	 vsp = 0;
