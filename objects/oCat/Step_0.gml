@@ -26,6 +26,12 @@ if (place_meeting(x,y+1,oWall)) && (key_jump){
 if (place_meeting(x,y+1,oBox)) && (key_jump){
 	vsp = -8;	
 }
+if (place_meeting(x,y+1,oBranch)) && (key_jump){
+	vsp = -8;	
+}
+if (place_meeting(x,y+1,oGate)) && (key_jump){
+	vsp = -8;	
+}
 
 // Horizontal Collision
 if (place_meeting(x+hsp,y,oWall)){
@@ -63,6 +69,12 @@ if (place_meeting(x,y+vsp,oBox)){
 }
 if (place_meeting(x,y+vsp,oBranch)){
 	 while(!place_meeting(x,y+sign(vsp),oBranch)){
+		 y += sign(vsp);
+	 }	 
+	 vsp = 0;
+}
+if (place_meeting(x,y+vsp,oGate)){
+	 while(!place_meeting(x,y+sign(vsp),oGate)){
 		 y += sign(vsp);
 	 }	 
 	 vsp = 0;
