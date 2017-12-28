@@ -79,4 +79,4 @@ if (place_meeting(x,y+vsp,oGate)){
 	 vsp = 0;
 }
 y += vsp;
-}
+} 

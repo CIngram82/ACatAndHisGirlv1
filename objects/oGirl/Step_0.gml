@@ -5,8 +5,12 @@ key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 key_swap_control = keyboard_check(vk_backspace);
-
-
+} else {
+	key_jump = 0;
+	key_right = 0;
+	key_jump = 0;
+	key_swap_control = 0;
+}
 // Swap Control
 
 if (key_swap_control){
@@ -28,7 +32,7 @@ if (key_jump){
 		(place_meeting(x,y+1,oBox))		||
 		(place_meeting(x,y+1,oBranch))	||
 		(place_meeting(x,y+1,oGate)){
-			vsp = -8;
+			vsp = -6;
 	}
 }
 
@@ -67,4 +71,3 @@ if (place_meeting(x,y+vsp,oBox)){
 	 vsp = 0;
 }
 y += vsp;
-}
