@@ -11,6 +11,9 @@ key_swap_control = keyboard_check(vk_enter);
 if (key_swap_control){
 	with(oGirl) playerControl = true;
 	playerControl = false;
+	with (oCamera){
+	follow = oGirl;
+	}
 }
 
 
@@ -20,17 +23,13 @@ var move = key_right - key_left;
 hsp = move * walkspd;
 vsp += grv;
 
-if (place_meeting(x,y+1,oWall)) && (key_jump){
-	vsp = -8;	
-}
-if (place_meeting(x,y+1,oBox)) && (key_jump){
-	vsp = -8;	
-}
-if (place_meeting(x,y+1,oBranch)) && (key_jump){
-	vsp = -8;	
-}
-if (place_meeting(x,y+1,oGate)) && (key_jump){
-	vsp = -8;	
+if (key_jump){
+	if	(place_meeting(x,y+1,oWall))	||
+		(place_meeting(x,y+1,oBox))		||
+		(place_meeting(x,y+1,oBranch))	||
+		(place_meeting(x,y+1,oGate)){
+			vsp = -8;
+		}
 }
 
 // Horizontal Collision

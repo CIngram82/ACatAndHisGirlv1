@@ -12,6 +12,9 @@ key_swap_control = keyboard_check(vk_backspace);
 if (key_swap_control){
 	with(oCat) playerControl = true;
 	playerControl = false;
+	with(oCamera){
+		follow = oCat;
+	}
 }
 
 // Calculate Movement
@@ -20,11 +23,13 @@ var move = key_right - key_left;
 hsp = move * walkspd;
 vsp += grv;
 
-if (place_meeting(x,y+1,oWall)) && (key_jump){
-	vsp = -6;	
-}
-if (place_meeting(x,y+1,oBox)) && (key_jump){
-	vsp = -6;	
+if (key_jump){
+	if	(place_meeting(x,y+1,oWall))	||
+		(place_meeting(x,y+1,oBox))		||
+		(place_meeting(x,y+1,oBranch))	||
+		(place_meeting(x,y+1,oGate)){
+			vsp = -8;
+	}
 }
 
 // Horizontal Collision

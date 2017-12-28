@@ -167,7 +167,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/oCameraGirl\/oCameraGirl.yy",
+                "resourcePath": "objects\/oCamera\/oCamera.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "2a7de7a0-0e69-4832-b7d2-ef45bfddb6ce",
+            "Value": {
+                "id": "55fbf531-ed62-4b5c-bee1-6351aa32ef8d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite7\/sprite7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "330f06be-48de-4c9b-8c62-2538f458b29a",
             "Value": {
                 "id": "14a0f2c4-0c7b-48fd-a75f-59bf42cec6c3",
@@ -205,7 +224,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/Player\/Player.yy",
+                "resourcePath": "rooms\/TestRoom\/TestRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
