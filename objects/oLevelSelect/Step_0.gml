@@ -1,7 +1,5 @@
 /// @desc Control menu
 
-// Item ease in
-menu_x += (menu_x_target - menu_x)/ menu_speed;
 
 //Keyboard Controls
 if(menu_control){
@@ -14,17 +12,18 @@ if(menu_control){
 		if (menu_cursor <0) menu_cursor = menu_items -1;
 	}
 	if(keyboard_check_pressed(vk_enter)){
-		menu_x_target = gui_width + 200;
 		menu_committed = menu_cursor;
 		menu_control = false;
 	}
 }
 
-if (menu_x > gui_width + 150) && (menu_committed != -1){
+if (menu_committed != -1){
 	switch (menu_committed){
-		case 3: default: SlideTransition(TRANS_MODE.NEXT); break;
-		case 2:	SlideTransition(TRANS_MODE.GOTO, LevelSelect); break;
-		case 1: SlideTransition(TRANS_MODE.GOTO,Credits); break;
-		case 0: game_end(); break;
+		case 4: SlideTransition(TRANS_MODE.GOTO,Menu); break;
+		case 3: SlideTransition(TRANS_MODE.GOTO,LevelSelect); break;
+		case 2: SlideTransition(TRANS_MODE.GOTO,Credits); break;
+		case 1:	SlideTransition(TRANS_MODE.GOTO,TestRoom); break;
+		case 0: SlideTransition(TRANS_MODE.GOTO,TestRoom1); break;
+		
 	}
 }
