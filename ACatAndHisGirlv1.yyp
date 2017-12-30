@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "2884adf8-20fd-4f4d-8c65-cc836dfc0116",
+            "Value": {
+                "id": "eff29c8f-3190-415c-9b91-0af258d0e7d4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oMagicAmulet\/oMagicAmulet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a7de7a0-0e69-4832-b7d2-ef45bfddb6ce",
             "Value": {
                 "id": "55fbf531-ed62-4b5c-bee1-6351aa32ef8d",
@@ -262,7 +281,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/controls\/controls.yy",
+                "resourcePath": "sprites\/sTestRoom1\/sTestRoom1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,7 +338,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/TestRoom\/TestRoom.yy",
+                "resourcePath": "rooms\/TestRoom1\/TestRoom1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -414,7 +433,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/TestRoom1\/TestRoom1.yy",
+                "resourcePath": "rooms\/TestRoom2\/TestRoom2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -473,6 +492,25 @@
                 ],
                 "resourcePath": "views\/5f4448d7-d324-4741-8c08-2dc5cbf06c2c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6cfc44ab-c23a-4826-a015-1284f38f2ee3",
+            "Value": {
+                "id": "e639a8ec-fc22-4436-a775-8256a9aadb8e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sHillsBG2\/sHillsBG2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -590,6 +628,25 @@
             }
         },
         {
+            "Key": "824f4d6d-f867-4f53-98c2-1b2ca355ebf0",
+            "Value": {
+                "id": "8a1bf8ac-eda3-4a4c-9c54-2d2fe8ad8094",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sMagicAmulet\/sMagicAmulet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8477d679-96d5-4d41-a0eb-ec0b54c7dbd3",
             "Value": {
                 "id": "6c81c93d-a31c-4d21-8b33-fa9826057a80",
@@ -606,6 +663,25 @@
                 ],
                 "resourcePath": "objects\/oGirl\/oGirl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85951862-042e-414f-836c-1920f43a8d45",
+            "Value": {
+                "id": "bd9eb372-01cf-4005-9be9-53c772b5c855",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sTestRoom2\/sTestRoom2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -666,6 +742,25 @@
             }
         },
         {
+            "Key": "92877685-c56b-43cf-b740-fa79b0042084",
+            "Value": {
+                "id": "4131e9da-0cd3-447c-ac35-c4d0afe4246d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sHillsBG5\/sHillsBG5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "935747d1-d68d-40dc-8bc3-e17d26ef6ce1",
             "Value": {
                 "id": "793cc520-22fc-4305-8794-a3431d571c78",
@@ -682,6 +777,25 @@
                 ],
                 "resourcePath": "sprites\/sGate\/sGate.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "999c2b34-bc3a-493e-9824-05ec8ad2865b",
+            "Value": {
+                "id": "e772e361-e1a5-49b4-9fe1-5d71316c89eb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/999c2b34-bc3a-493e-9824-05ec8ad2865b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -739,6 +853,25 @@
                 ],
                 "resourcePath": "options\/amazonfire\/options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a1dfc7c8-0071-419f-9334-e7fc30c2edf3",
+            "Value": {
+                "id": "ad4bf179-9927-4b97-a65b-00513fcfd717",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sHillsBG4\/sHillsBG4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -894,6 +1027,25 @@
             }
         },
         {
+            "Key": "c5e36f1e-c8d8-4adf-b46b-e1ffcd30d6ee",
+            "Value": {
+                "id": "7da331e0-6a02-4b3b-b93a-13a24c9e810b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sTitleLogo\/sTitleLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c950143e-1176-4e37-b0b9-6a8a7ba6a4cc",
             "Value": {
                 "id": "67e6373f-3683-4031-86ec-26b778de2460",
@@ -1005,6 +1157,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fe73221d-79ca-4ed0-97a5-3a31073c3aca",
+            "Value": {
+                "id": "5a341c31-d599-4604-a073-4a36ed5252bf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sHillsBG3\/sHillsBG3.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

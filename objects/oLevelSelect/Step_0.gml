@@ -22,8 +22,8 @@ if (menu_committed != -1){
 		case 4: SlideTransition(TRANS_MODE.GOTO,Menu); break;
 		case 3: SlideTransition(TRANS_MODE.GOTO,LevelSelect); break;
 		case 2: SlideTransition(TRANS_MODE.GOTO,Credits); break;
-		case 1:	SlideTransition(TRANS_MODE.GOTO,TestRoom); break;
-		case 0: SlideTransition(TRANS_MODE.GOTO,TestRoom1); break;
+		case 1:	SlideTransition(TRANS_MODE.GOTO,TestRoom1); break;
+		case 0: SlideTransition(TRANS_MODE.GOTO,TestRoom2); break;
 		
 	}
 }

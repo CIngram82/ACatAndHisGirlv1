@@ -1,1 +1,0 @@
-target = TestRoom1;
